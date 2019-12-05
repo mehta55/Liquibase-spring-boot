@@ -1,0 +1,20 @@
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-12">
+		<createTable tableName="students">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+</databaseChangeLog>

@@ -1,0 +1,135 @@
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-1">
+		<createTable tableName="admins">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-2">
+		<createTable tableName="temp">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-3">
+		<createTable tableName="temp2">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-4">
+		<createTable tableName="temp3">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-5">
+		<createTable tableName="user">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-6">
+		<createTable tableName="user2">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-7">
+		<createTable tableName="user3">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-8">
+		<createTable tableName="user4">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-9">
+		<addPrimaryKey columnNames="uid"
+			constraintName="PRIMARY" tableName="user" />
+	</changeSet>
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-10">
+		<createTable tableName="user5">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+
+	<changeSet author="sahilmehta02 (generated)"
+		id="1575531087209-11">
+		<createTable tableName="user6">
+			<column name="uid" type="INT">
+				<constraints nullable="false" />
+			</column>
+			<column name="address" type="VARCHAR(255)" />
+			<column name="name" type="VARCHAR(255)" />
+			<column name="phone" type="VARCHAR(255)" />
+			<column name="tech" type="VARCHAR(255)" />
+		</createTable>
+	</changeSet>
+</databaseChangeLog>
+
